@@ -43,7 +43,7 @@ def support():
 @app.route("/hai")
 def hai():
     global token
-    return 'return 'Token is %s'%(token)
+    return  'Token is %s'%(token)
     
     
 if __name__ == "__main__":
